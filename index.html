@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raksha Bandhan Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/img.png">
+</head>
+<body>
+
+  <header>
+    <h1>💫 Raksha Bandhan Memories 💫</h1>
+    <p>Click on an image to reveal a special message ✨</p>
+  </header>
+
+<main>
+  <section class="gallery">
+    <div class="image-box">
+      <img src="images/sis.jpg" alt="Rakhi 1" />
+      <p class="caption">Neha DiDi</p>
+    </div>
+    <div class="image-box">
+      <img src="images/sis2.jpg" alt="Rakhi 2" />
+      <p class="caption">Babli DiDi</p>
+    </div>
+    <div class="image-box">
+      <img src="images/sis3.jpg" alt="Rakhi 3" />
+      <p class="caption">Chaya DiDi</p>
+    </div>
+    <div class="image-box">
+      <img src="images/sis4.jpg" alt="Rakhi 4" />
+      <p class="caption">Bubul DiDi</p>
+    </div>
+    <div class="image-box">
+      <img src="images/sis5.jpg" alt="Rakhi 5" />
+      <p class="caption">Soni</p>
+    </div>
+    <div class="image-box">
+      <img src="images/sis6.jpg" alt="Rakhi 6" />
+      <p class="caption">Muskan</p>
+    </div>
+    <div class="image-box">
+      <img src="images/sis7.jpg" alt="Rakhi 7" />
+      <p class="caption">Varhsa</p>
+    </div>
+    <div class="image-box">
+      <img src="images/sis8.jpg" alt="Rakhi 8" />
+      <p class="caption">Siddhi</p>
+    </div>
+    <div class="image-box">
+      <img src="images/sis9.jpg" alt="Rakhi 9" />
+      <p class="caption">Riddhi</p>
+    </div>
+    <div class="image-box">
+      <img src="images/sis10.jpg" alt="Rakhi 10" />
+      <p class="caption">Megha</p>
+    </div>
+  </section>
+
+  <!-- Popup message -->
+  <div id="popup-message" class="popup"></div>
+
+  <!-- Background music -->
+  <audio id="bg-music" src="audio/message.mp3" preload="auto"></audio>
+</main>
+
+  <audio id="bg-music" autoplay loop>
+  <source src="music/Dhaagon.mp3" type="audio/mpeg" />
+</audio>
+ <!-- 🔊 Music Toggle Button + Audio Tag -->
+  <button id="toggle-music">Turn Off Music</button>
+
+  <audio id="background-audio" autoplay loop>
+    <source src="music/Dhaagon.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+
+  <footer>
+    <p>Made with ❤️ for Raksha Bandhan 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
